@@ -9,7 +9,7 @@ def getPlayableActions(currentState, differentials, timestep):
     possible after [timestep] amount of time."""
     acceleration_power = 1  # m/s/s
     braking_power = 1  # m/s/s
-    max_turning_rate = 45  # deg/s
+    max_turning_rate = 30  # deg/s
 
 
 def getStateMatrix():
